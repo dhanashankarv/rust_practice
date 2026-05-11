@@ -1,0 +1,9 @@
+[package]
+name = "rig-agent"
+version = "0.1.0"
+edition = "2026"
+
+[dependencies]
+rig = "0.36"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["full", "derive"] }
