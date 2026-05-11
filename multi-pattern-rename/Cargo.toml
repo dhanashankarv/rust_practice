@@ -1,0 +1,10 @@
+[package]
+name = "multi-pattern-rename"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "multi-pattern-rename"
+path = "multi-pattern-rename.rs"
